@@ -5,6 +5,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 
+// Also Available on Github
 public class MainClass extends JFrame{
 	ImagePanel imagePanel;
 	public MainClass() {
