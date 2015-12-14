@@ -13,6 +13,7 @@ public class MainClass extends JFrame{
 		setLayout(new BorderLayout(10,10));
 		add(imagePanel, BorderLayout.WEST);
 		add(new ButtonPanel(imagePanel,this), BorderLayout.EAST);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 
 	public static void main(String[] args) {
@@ -21,6 +22,7 @@ public class MainClass extends JFrame{
 		f.pack();
 		f.setResizable(false);
 		f.setVisible(true);
+		
 	}//
 
 }
